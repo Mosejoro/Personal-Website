@@ -4,12 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    filter: blur(1px);
-    transition: filter ease-in-out 0.2s;
     scroll-behavior:smooth;
-}
-html:hover{
-    filter: blur(0);
 }
 ::-webkit-scrollbar{
     width: 5px;
